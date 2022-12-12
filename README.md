@@ -7,6 +7,14 @@ npm install discord.js
 yarn add discord.js
 pnpm add discord.js
 ```
+Also you need to create a config.json file and put;
+```json
+{
+    "token": "Token here",
+    "clientId": "Client ID here",
+    "guildId": "Guild ID here"
+}
+```
 
 # Docs
 
