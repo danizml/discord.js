@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({
-    intents: [8]
+    intents: [/*Put your discord bot intents*/]
 });
 require('dotenv').config()
 const config = require('./config.json')
 const i18n = require('i18n');
 
 client.once('ready', () => {
-    console.log('Hola Mundo')
+    console.log('Lets help some people...')
 })
 
 client.on('interactionCreate', async interaction => {
@@ -20,5 +20,4 @@ client.on('interactionCreate', async interaction => {
     }
 })
 
-//client.login(process.env.token)
-client.login(config.token)
+client.login(/*Put-your-token-here*/)
